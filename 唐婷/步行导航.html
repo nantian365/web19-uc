@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        body,
+        html,
+        #allmap {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+    </style>
+    <script type="text/javascript"
+        src="https://api.map.baidu.com/api?v=2.0&ak=jPQwiDPTV35RWNaNCz20oSEEGfGkYkjW"></script>
+    <title>步行导航检索</title>
+</head>
+    <div>
+        请输入出发地：<input type="text" id="chu">
+    </div>
+    <div>
+        请输入目的地：<input type="text" id="mu">
+    </div>
+    <button id="btn">查询路径</button>
+    <div id="allmap"></div>
+
+    <script type="text/javascript">
+        var chu = document.getElementById("chu");
+        var mu = document.getElementById("mu");
+        var btn = document.getElementById("btn")
+        // 百度地图API功能
+        var map = null;
+        navigator.geolocation.getCurrentPosition(function (res) {
+            map = new BMap.Map("allmap");
+            map.centerAndZoom(new BMap.Point(res.coords.longitude, res.coords.latitude), 11);
+        });
+        btn.onclick = function () {
+            var walking = new BMap.WalkingRoute(map, { renderOptions: { map: map, autoViewport: true } });
+            walking.search(chu.value, mu.value);
+            chu.value=""
+            mu.value=""
+        }
+    </script>
+</body>
+
+</html>
