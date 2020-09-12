@@ -1,0 +1,331 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*头部*/
+.header{
+	margin-bottom: 50px;
+}
+.w{
+	width: 980px;
+	margin: auto;
+}
+.nav{
+	height: 60px;
+	line-height: 60px;
+}
+/*logo*/
+h1{
+	float: left;
+	height: 43px;
+	margin-top: 8.5px;
+}
+/*导航*/
+.oul{
+	float: right;
+	list-style: none;
+}
+.oul li{
+	float: left;
+	margin: 0 20px;
+	line-height: 58px;
+}
+.oul li a{
+	display: inline-block;
+	height: 58px;
+	border-bottom: 2px solid #ffffff;
+	text-decoration: none;
+	color: #141414;
+	font-size: 17px;
+}
+.oul li a:hover{
+	border-bottom-color: #FA7608;
+}
+/*banner广告*/
+.banner{
+	width: 100%;
+	height: 300px;
+	background-image: url("../images/UC_06.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+/*下载方式*/
+.download{
+	margin-top: 30px;
+	height: 100px;
+	position: relative;
+}
+.download div{
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	margin-right: 70px;
+}
+.download div img{
+	margin-bottom: 5px;
+}
+.bg{
+	display: inline-block;
+	background-image: url("../images/bgbg.png");
+	background-repeat: no-repeat;
+}
+.download .s1{
+	position: relative;
+}
+.new{
+	width:25px; 
+	height:10px;
+	background-position: -56px -182px;
+	position: absolute;
+	right: 5px;
+	top: -5px;
+}
+.download .s3{
+	margin-top: 12px;
+}
+.download .s4{
+	margin-top: 16px;
+}
+.download .s5{
+	margin-top: 10px;
+}
+.download .s7{
+	position: absolute;
+	top:-70px;
+	right: 0;
+	margin-right: 0;
+}
+/*主体内容*/
+.bigmain{
+	margin-bottom: 30px;
+}
+.main1{
+	width: 290px;
+	float: left;
+}
+.title{
+	margin-bottom: 20px;
+}
+.title span{
+	font-size: 18px;
+	font-weight: bold;
+}
+.title a{
+	float: right;
+	font-size: 14px;
+	color: #1C1C1C;
+	text-decoration: none;
+}
+.pic{
+	margin-bottom: 10px;
+}
+.pic a{
+	display: inline-block;
+	width: 100%;
+	height: 120px;
+}
+.pic p{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #F2F2F2;
+	text-align: center;
+	font-size: 13px;
+	color: #909090;
+}
+.bottom a{
+	display: block;
+	font-size: 13px;
+	color: #6D6D6D;
+	margin-bottom: 5px;
+	text-decoration:none;
+}
+.main2{
+	width: 290px;
+	float: left;
+	margin-left: 55px;
+}
+.main3{
+	width: 290px;
+	float: right;
+}
+/*清除浮动*/
+.main:after{
+	height:0;
+	content:" ";
+	display:block;
+	clear:both
+}
+.main{
+	*zoom:1;
+}
+/*底部*/
+.footer{
+	height: 500px;
+	padding-top: 30px;
+	background-color: #363636;
+}
+
+.ul0{
+	float: left;
+	list-style: none;
+	font-size: 14px;
+	margin-right: 100px;
+}
+.ul0 li{
+	margin-bottom: 5px;
+}
+.ul0 li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ul5{
+	margin-right: 0;
+}
+/*最右边下拉框*/
+.right{
+	float: right;
+}
+.select{
+	width: 130px;
+	border: 1px solid #464646;
+	border-top: 0;
+	height: 25px;
+	line-height: 25px;
+	color: #AAAAAA;
+	font-size: 14px;
+	padding: 0 5px;
+	position: relative;
+}
+.world{
+	width:15px; 
+	height:15px;
+	background-position: 0 0;
+}
+.xiala{
+	float: right;
+	margin-top: 9px;
+	width:11px; 
+	height:7px;
+	background-position: 0 -218px;
+	
+}
+.erji{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 26px;
+	border: 1px solid #464646;
+	border-top: 0;
+	text-align: center;
+	background-color: #333333;
+}
+.erji p{
+	cursor: pointer;
+}
+.ul6{
+	color: #AAAAAA;
+	margin-top: 10px;
+	margin-right: 0;
+}
+.iPhone{
+	width: 10px;
+	height:18px;
+	background-position: -42px -21px;
+}
+.pad{
+	width: 17px;
+	height:14px;
+	background-position: 0 -45px;
+}
+.tv{
+	width: 17px;
+	height:15px;
+	background-position: -52px -61px;
+}
+.wb{
+	width: 22px;
+	height:19px;
+	background-position: 0px -78px;
+}
+.tb{
+	width: 18px;
+	height:19px;
+	background-position: -52px -143px;
+}
+.wx{
+	width: 21px;
+	height:18px;
+	background-position: -47px -100px;
+}
+/*清除浮动*/
+.ul:after{
+	height:0;
+	content:" ";
+	display:block;
+	clear:both
+}
+.ul{
+	*zoom:1;
+}
+/*两行连接*/
+.lian{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.lian div{
+	height: 40px;
+	line-height: 40px;
+	border-top: 1px dashed #464646;
+	border-bottom: 1px dashed #464646;
+}
+.lian div ul{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 10px;
+	list-style: none;
+	font-size: 12px;	
+}
+.lian div ul li{
+	float: left;
+	border-right:1px solid #464646;
+}
+.lian div ul li a{
+	color: #AAAAAA;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.lian div ul li a:hover{
+	color: orange;
+}
+.lian div ul .last{
+	border-right: 0;
+}
+.lian .div2 .yq{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+}
+.lian .xia{
+	width: 17px;
+	height:17px;
+	background-position: 0 -167px;
+	float: right;
+	margin-top: 11px;
+}
+/*最底部认证*/
+.down{
+
+	font-size: 12px;
+	color: #666666;
+}
+.down img{
+	float: left;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.down div{
+	float: left;
+	margin-right: 30px;
+}
