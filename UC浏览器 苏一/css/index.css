@@ -1,0 +1,322 @@
+.header{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.toplist{
+	margin-top: 20px;
+	width: 523px;
+}
+.toplist>li{
+	float: left;
+	width: 46px;
+	margin: 0 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.toplist li>a{
+	font-size: 20px;
+	color: #000000;
+	font-family: "microsoft yahei";
+}
+
+.toplist>li:hover {
+	border-bottom: 2px solid #FF6E0E;
+}
+
+.topon{
+	border-bottom: 2px solid #FF6E0E;
+}
+
+/* 头部结束 */
+.applist>ul{
+	width: 769px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.applist ul>li{
+	float: left;
+	width: 120px;
+	text-align: center;
+}
+
+.applist{
+	height: 145px;
+	
+}
+
+.new{
+	display: inline-block;
+	background: url(../images/new.png)no-repeat;
+	width: 23px;
+	height: 11px;
+	position: absolute;
+	right: 12px;
+	top: -5px;
+}
+
+.applist ul li label>div{
+	height: 70px;
+	
+}
+
+.line{
+	height: 1px;
+	background-color: #DDDDDD;
+}
+
+.saoyisao{
+	position: absolute;
+	right: 118px;
+	top: -64px;
+}
+.box1{
+	width: 290px;
+	margin-right: 50px;
+}
+
+.content{
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.pictext{
+	width: 290px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background-color: #F2F2F2;
+}
+
+.pic{
+	height: 120px;
+}
+
+.boxp{
+	width: 290px;
+}
+
+.boxp>p{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 25px;
+}
+
+.boxp p>a{
+	color: #666;
+	font-size: 13px;
+}
+
+.pictext>a{
+	font-size: 13px;
+}
+
+.boxp p>a:hover{
+	color: red;
+	font-weight: 700;
+}
+
+
+/* 底部 */
+.footer{
+	background-color: #333333;
+	height: 531px;
+	padding-top: 30px;
+}
+
+.endlist{
+	width: 720px;
+	height: 257px;
+	
+}
+
+.endlist>ul{
+	float: left;
+	width: 100px;
+	margin-right: 44px;
+}
+
+.endlist ul li>a{
+	color: #D4D4D4;
+	font-size: 12px;
+}
+.endlist ul li>a:hover {
+	color: red;
+}
+
+select{
+	width: 138px;
+	height: 24px;
+	color: #666;
+	background-color:#333333;
+	border: 1px solid #3C3C3C;
+	outline: none;
+	padding-left: 20px;
+}
+
+.selsp{
+	display: inline-block;
+	background: url(../images/bgbg.png)no-repeat 0 0;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+
+.sp1{
+	display: inline-block;
+	background: url(../images/bgbg.png)no-repeat -43px -22px;
+	width: 9px;
+	height: 16px;
+	vertical-align: middle;
+	
+}
+
+.banben ul li>a{
+	display: inline-block;
+	vertical-align: middle;
+	color: #939CA0;
+	font-size: 12px;
+}
+.banben ul li>a:hover {
+	color: white;
+}
+
+.sp2{
+	display: inline-block;
+	background: url(../images/bgbg.png)no-repeat 0 -45px;
+	width: 16px;
+	height: 12px;
+	vertical-align: middle;
+}
+
+.icon{
+	display: inline-block;
+	height: 26px;
+	width: 20px;
+	text-align: center;
+}
+
+.sp3{
+	display: inline-block;
+	background: url(../images/bgbg.png)no-repeat -2px -126px;
+	width: 16px;
+	height: 13px;
+	vertical-align: middle;
+}
+
+.sp4{
+	display: inline-block;
+	background: url(../images/bgbg.png)no-repeat 0 -79px;
+	width: 20px;
+	height: 17px;
+	vertical-align: middle;
+}
+
+.sp5{
+	display: inline-block;
+	background: url(../images/bgbg.png)no-repeat -52px -143px;
+	width: 17px;
+	height: 18px;
+	vertical-align: middle;
+}
+
+.sp6{
+	display: inline-block;
+	background: url(../images/bgbg.png)no-repeat -48px -101px;
+	width: 20px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.lianjie{
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: 40px;
+	position: relative;
+	right: 20px;
+}
+
+.ali{
+	border-top: 1px dashed #434343;
+	width: 950px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px dashed #434343;
+	padding: 0 10px;
+}
+
+.ali div>a{
+	color: #939CA0;
+	font-size: 12px;
+}
+
+.endline{
+	display: inline-block;
+	width: 1px;
+	height: 11px;
+	background-color: #939CA0;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+
+.flag{
+	display: inline-block;
+	background: url(../images/bgbg.png)no-repeat 0 -168px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-bottom: 3px;
+	cursor: pointer;
+}
+
+.yq{
+	width: 950px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px dashed #434343;
+	padding: 0 10px;
+}
+
+.yq div>a{
+	color: #939CA0;
+	font-size: 12px;
+}
+
+.flag1{
+	display: inline-block;
+	background: url(../images/bgbg.png)no-repeat 0 -168px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-bottom: 3px;
+	cursor: pointer;
+}
+
+.uc{
+	margin-top: 30px;
+}
+
+.endzuo>p{
+	color: #505050;
+	font-size: 12px;
+	width: 387px;
+	margin-left: 20px;
+	position: relative;
+	bottom: 15px;
+	line-height: 20px;
+}
+
+.endyou>div{
+	margin: 0 10px;
+}
+
+.endyou{
+	margin-right: 44px;
+}
