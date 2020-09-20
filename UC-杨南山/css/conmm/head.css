@@ -1,0 +1,29 @@
+.top{
+    height: 76px;
+    background: #fff;
+}
+
+.top .logo{
+    width: 200px;
+    height: 43px;
+    background: url(../../images/UC_03.jpg) no-repeat;
+    float: left;
+    margin-top: 16px;
+}
+.list{
+    float: right;
+    margin-top: 22px;
+}
+.top .list li{
+    float: left;
+    padding: 0 10px;
+    line-height: 40px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.top .list li.cur{
+    border-bottom: 2px solid #ff6600;
+}
+.top .list li a{
+    color: #000000;
+}

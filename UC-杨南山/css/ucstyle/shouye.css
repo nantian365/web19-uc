@@ -1,0 +1,98 @@
+
+.banner{
+    width: 100%;
+    flex: 1;
+}
+.banner a{
+    width: 100%;
+    flex: 1;
+}
+.banner a img{
+    width: 100%;
+}
+.down{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.down .type{
+    position: relative;
+    margin-top: 40px;
+}
+.type dl{
+    width: 100px;
+    float: left;
+    margin-left: 35px;
+}
+.type dl dt img{
+    display: block;
+    margin: 0 auto;
+    height: 61px;
+}
+
+.type dl dd {
+    text-align: center;
+}
+.type dl dd a{
+    font-size: 12px;
+    color: #000;
+    line-height: 28px;
+    text-align: center;
+}
+.type dl.erweima img{
+    display: block;
+    width: 130px;
+    height: 130px;
+}
+.type .erweima{
+    width: 130px;
+    position: absolute;
+    top: -68px;
+    right: 0;
+}
+.mian .news{
+    margin-top: 50px;
+}
+.message{
+    width: 290px;
+    float: left;
+}
+.nhd{
+    line-height: 48px;
+}
+.nhd h3{
+    font-size: 24px;
+   
+}
+.nhd a{
+    font-size: 16px;
+    color: #3f3f3f;
+}
+.nhd a i{
+    color: #d3d1d1;
+}
+.nbd .thumb img{
+    display: block;
+
+}
+.mark{
+    width: 100%;
+    height: 36px;
+    background: #f2f2f2;
+    font-size: 12px;
+    color: #7b7b7b;
+    line-height: 36px;
+    text-align: center;
+}
+.nbd p{
+    font-size: 14px;
+    line-height: 26px;
+}
+.nbd p:first-of-type{
+    margin-top: 14px;
+}
+.nbd p a{
+    color: #000;
+}
+.message.m2{
+    margin: 0 57px;
+}
