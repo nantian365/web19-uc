@@ -1,0 +1,150 @@
+/* 顶部 */
+.header{
+    height: 70px;
+    background:white;
+}
+.header1{
+    width: 980px;
+    height: 70px;
+    /* border:1px solid orange; */
+    margin: 0 auto;
+}
+.logo{
+    margin-top:12px;
+    float: left;
+}
+.right a{
+    font-size: 18px;
+    line-height: 78px;
+    margin-left: 50px;
+}
+/* 中间图片部分 */
+.center{
+    height: 400px;
+}
+.photo{
+    background:url(../images/UC_06.jpg) no-repeat;
+    height: 400px;
+}
+/* UC浏览器版本 */
+.edition{
+    height: 174px;
+    margin-top: -30px;
+    border-bottom:1px solid silver;
+}
+.edition-1{
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.anzhuo{
+    text-align: center;
+    flex-grow: 1;
+}
+/* 活动专区、新闻动态、社区热帖 */
+.huodong{
+    margin-top: 60px;
+    height: 380px;
+}
+.one{
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.one-an{
+    width: 290px;
+}
+.gid{
+    width: 290px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gids{
+    font-size: 24px;
+}
+.fish a{
+    font-size: 18px;
+}
+.fish span{
+    color:silver
+}
+.twice{
+    background:url(../images/UC_40.jpg);
+    width:290px;
+    height: 120px;   
+}
+.circle{
+    width: 290px;
+    height: 36px;
+    background:#EAEAEA;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.swice li{
+    margin-top: 5px;
+}
+/* 新闻动态 */
+.twice-1{
+    background:url(../images/UC_42.jpg);
+    width:290px;
+    height: 120px;   
+}
+/* 社区热帖 */
+.twice-2{
+    background:url(../images/UC_44.jpg);
+    width:290px;
+    height: 120px;   
+}
+/* 底部 */
+.bottoms{
+   background:#333333;
+}
+.unders{
+    width: 980px;
+    margin: 0 auto;
+}
+.unders-1{
+    display: flex;
+	padding: 20px 0;
+}
+.unders-1 ul{
+    margin: 0 auto;
+}
+.unders-1 ul li a{
+	color: #FFFFFF;
+}
+.english{
+	background: #333333;
+	color: #AAAAAA;
+}
+#china li a{
+	color: #AAAAAA;
+}
+.below{
+	border-top: 1px dashed white;
+	border-bottom: 1px dashed white;
+	color: white;
+	padding: 10px 0;
+}
+.below a{
+	color: white;
+	padding: 0 5px;
+	font-size: 12px;
+}
+.heap{
+	display: flex;
+	color: #666666;
+	font-size: 12px;
+	padding: 20px 0;
+}
+.heaps{
+	margin-top: 20px;
+	margin-left: 100px;
+}
