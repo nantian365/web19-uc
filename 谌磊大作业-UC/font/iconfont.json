@@ -1,0 +1,107 @@
+{
+  "id": "2068931",
+  "name": "Uc",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "53697",
+      "name": "功能页-百度",
+      "font_class": "baidu",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "1003167",
+      "name": "手机",
+      "font_class": "shouji-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1287355",
+      "name": "微博",
+      "font_class": "microblog-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1941513",
+      "name": "f",
+      "font_class": "f",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3370380",
+      "name": "博客",
+      "font_class": "boke",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "4874695",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "5872091",
+      "name": "安卓手机-01",
+      "font_class": "anzhuoshouji-",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5931631",
+      "name": "pad",
+      "font_class": "pad",
+      "unicode": "e789",
+      "unicode_decimal": 59273
+    },
+    {
+      "icon_id": "6125331",
+      "name": "in",
+      "font_class": "in",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "11442020",
+      "name": "鸟-方",
+      "font_class": "niao-fang",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "12386498",
+      "name": "tv",
+      "font_class": "tv",
+      "unicode": "e6f8",
+      "unicode_decimal": 59128
+    },
+    {
+      "icon_id": "14028326",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "14377209",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e76b",
+      "unicode_decimal": 59243
+    },
+    {
+      "icon_id": "16833795",
+      "name": "苹果手机",
+      "font_class": "pingguoshouji",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    }
+  ]
+}
