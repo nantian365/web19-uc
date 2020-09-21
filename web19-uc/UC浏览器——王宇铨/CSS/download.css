@@ -1,0 +1,437 @@
+.sprite{
+	background:url(../images/bgbg.png) no-repeat;
+}
+body{
+	background-color: #f2f2f2;
+}
+/*顶部*/
+header{
+	box-shadow: 0px 12px 8px -10px #d3d3d3;
+	background-color: #fff;
+}
+.topbar{
+	padding-top:15px;
+	
+}
+.topbar>div a{
+	display: inline-block;
+	width: 130px;
+	height: 63px;
+	line-height: 63px;
+	text-align: center;
+}
+.topbar>div a span{
+	font-size:24px; 
+	padding-bottom: 12px;
+}
+.topbar>div .topChecked span{
+	border-bottom: 3px solid #ff6600;
+}
+
+/*面包屑*/
+.mbx{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+}
+/*热门下载*/
+.hotDownload>article{
+	padding:0 20px;
+}
+.hotDownload h4{
+	height: 50px;
+	line-height: 50px;
+	color: #404040;
+	font-size: 18px;
+	font-weight: bold;
+	/*text-indent: 24px;*/
+}
+.hotDownload ul{
+	/*padding-left: 20px;*/
+	border-bottom: 1px solid #e0e0e0;
+}
+.hotDownload ul a{
+	display: inline-block;
+	width: 136px;
+	height: 126px;
+	padding-top:48px;
+	text-align: center;
+	/*position: relative;*/
+}
+
+.hotDownload ul a div{
+	height: 61px;
+	line-height: 61px;
+}
+
+.hotDownload ul a p{
+	margin-top: 10px;
+}
+.hotDownload>article .otherVer{
+	padding:30px 0;
+
+}
+.hotDownload>article .otherVer a{
+	padding:0 20px;
+	border-right: 1px solid #e0e0e0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+/*按机型下载*/
+.typeDownload{
+	margin-top:20px;
+}
+.typeDownload form {
+	height: 50px;
+	line-height: 50px;
+	padding:0 20px;
+	/*text-indent: 24px;*/
+}
+.typeDownload form span{
+	color: #404040;
+	font-size: 18px;
+	font-weight: bold;
+}
+.typeDownload form input{
+	border:none;
+	outline: none;
+	float: left;
+	margin-top: 10px;
+}
+.typeDownload form input[type="text"]{
+	width: 247px;
+	height: 28px;
+	line-height: 28px;
+	line-height: 28px;
+	text-indent: 1em;
+	border:1px solid #e5e5e5;
+	border-right: none;
+}
+.typeDownload form input[type="submit"]{
+	width: 36px;
+	height: 30px;
+	background:url(../images/dl_03.png) no-repeat;
+	background-position: 9px 7px;
+	background-color: #ff6600;
+}
+.typeDownload article{
+	padding:20px;
+}
+.typeDownload article a{
+	display: inline-block;
+	width: 155px;
+	height: 30px;
+	line-height: 30px;
+}
+.typeDownload>div a{
+	display: inline-block;
+	width: 220px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	background-color: #ff6600;
+	/*margin:0 auto;*/
+}
+.typeDownload>div i{
+	display: inline-block;
+	width: 20px;
+	height:50px;
+	
+	vertical-align: top;
+	background:url(../images/dl_07.jpg) no-repeat;
+	background-position:0 12px ;
+}
+
+/*其他方式下载*/
+.otherDownload{
+	margin-top: 20px;
+}
+.otherDownload>h4{
+	height: 50px;
+	line-height: 50px;
+	padding:0 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #717171;
+}
+.otherDownload>h4 div{
+	font-size: 14px;
+	font-weight: normal;
+	color: #717171;
+}
+.otherDownload>h4 div a{
+	color: #4375bd;
+	margin:0 10px;
+}
+.otherDownload>section article{
+	width: 289px;
+	height: 272px;
+	border-top:1px solid #d4d4d4;
+	padding:0 15px;
+}
+.otherDownload>section article h5{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #717171;
+	text-align: left;
+}
+.otherDownload>section article section{
+	width: 200px;
+	margin:0 auto;
+}
+.otherDownload>section article section h6{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #717171;
+	text-align: center;
+}
+.otherDownload>section article section a{
+	display: inline-block;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	color: #fff;
+	background-color: #6aa7df;
+	text-align: center;
+}
+.otherDownload>section article section a i {
+	display: inline-block;
+	width: 29px;
+	height: 48px;
+	background:url(../images/dl_11.jpg) no-repeat;
+	background-position: 0 10px;
+	vertical-align: top;
+}
+.otherDownload>section article section .ico2{
+	background-color: #81b846;
+}
+.otherDownload>section article section .ico2 i{
+	background:url(../images/dl_14.jpg) no-repeat;
+	background-position: 0 10px;
+}
+.otherDownload>section  .border{
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+.otherDownload>section article p{
+	font-size: 12px;
+	color: #717171;
+}
+.otherDownload>section .border li{
+	padding:7px 0;
+}
+.otherDownload>section .border li:nth-of-type(3){
+	padding:0;
+}
+.otherDownload>section .border li:nth-of-type(3) a{
+	font-size: 12px;
+	color: #256ba8;
+}
+.otherDownload>section .border input{
+	width: 280px;
+	height: 30px;
+	border:1px solid #d4d4d4;
+	outline: none;
+	text-indent: 1em;
+	font-size: 12px;
+}
+.otherDownload>section .border input[type="text"]{
+	width: 214px;
+}
+.otherDownload>section .border #yzmText{
+	display: inline-block;
+	width: 62px;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: top;
+	text-align: center;
+}
+.otherDownload>section .border input[type="submit"]{
+	width: 86px;
+	/*margin:0 auto;*/
+	text-indent: 0;
+	border: none;
+	color: #fff;
+	background-color: #ff6600;
+	cursor:pointer;
+}
+.otherDownload>section .border li:last-child{
+	text-align: center;
+}
+/*底部*/
+footer{
+	background-color: #333;
+	padding-bottom: 30px;
+}
+footer .otherList{
+	padding: 30px 0;
+	border-bottom: 1px dotted #565656;
+}
+footer .otherList>ul{
+	width: 160px;
+	float: left;
+	line-height: 24px;
+}
+footer .otherList>ul h4{
+	color: #aaaaaa;
+	font-size: 14px;
+	font-weight: bold;
+}
+footer .otherList>ul li a{
+	display: inline-block;
+	color: #aaaaaa;
+	font-size: 14px;
+	width: 100%;
+}
+footer .otherList .others .select{
+	
+	cursor:pointer;
+	position: relative;
+} 
+footer .otherList .others .select>div{
+	border:1px solid #434343;
+}
+footer .otherList .others .select i{
+	display: inline-block;
+	width: 28px; 
+	height: 22px;
+}
+footer .otherList .others .select .ico1{
+	background-position: 6px 4px;
+	margin:0 5px;
+}
+footer .otherList .others .select .ico2{
+	background-position: 9px -210px;
+}
+footer .otherList .others .select span{
+	display: inline-block;
+	width: 70px;
+	height: 22px;
+	line-height: 22px;
+ 	float: left;
+ 	color: #aaaaaa;
+}
+footer .otherList .others .select ul{
+	width: 100%;
+	color: #aaaaaa;
+	padding:5px 0;
+	background-color: #434343;
+	position: absolute;
+	top:24px;
+	left:0;
+	display: none;
+}
+footer .otherList .others .select ul li{
+	width: 98px;
+	height: 22px;
+	padding-left: 38px;
+}
+footer .otherList .others .select ul li:hover{
+	background-color: #aaaaaa;
+	color: #434343;
+}
+footer .otherList .others ul li a{
+	display: inline-block;
+	width: 100%;
+	height: 22px;
+	line-height: 22px;
+	color: #aaaaaa;
+}
+footer .otherList .others ul li i{
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	vertical-align: top;
+}
+footer .otherList .others ul li .ico1{
+	background-position: -33px -18px;
+}
+footer .otherList .others ul li .ico2{
+	background-position: 7px -40px;
+}
+footer .otherList .others ul li .ico3{
+	background-position: -45px -58px;
+}
+footer .otherList .others ul li .ico4{
+	background-position: 7px -77px;
+}
+footer .otherList .others ul li .ico5{
+	background-position: -46px -141px;
+}
+footer .otherList .others ul li .ico6{
+	background-position: -43px -98px;
+}
+footer .otherList .others ul li:hover a{
+	color: #ff6600;
+}
+
+/*购物网站*/
+footer .pubOpen{
+	
+	border-bottom: 1px dotted #565656;
+}
+footer .youshang ul{
+	width: 940px;
+}
+footer .pubOpen ul li{
+	height: 37px;
+	/*line-height: 37px;*/
+}
+footer .pubOpen ul a{
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	margin-top: 10px;
+	color: #aaaaaa;
+	font-size: 12px;
+	padding:0 5px;
+	border-right: 1px solid #565656;
+	/*float: left;*/
+}
+
+
+footer .pubOpen  a:hover{
+	color: #ff6600;
+}
+footer .pubOpen .sprite{
+	width: 37px;
+	height: 37px;
+	background-position: -143px -182px;
+	cursor:pointer;
+}
+footer .pubOpen .listOpen{
+	background-position: -143px -130px;
+}
+footer .pubOpen .hideLi{
+	display: none;
+}
+
+footer .friendLink h4{
+	color: #666666;
+	font-size: 12px;
+	height: 37px;
+	line-height: 37px;
+}
+footer .friendLink ul{
+	width: 880px;
+}
+
+/*工商信息*/
+footer .imform{
+	/*height: 60px;*/
+}
+footer .imform p{
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #666;
+}
+footer .imform img{
+	margin: 15px 15px 0 0;
+}

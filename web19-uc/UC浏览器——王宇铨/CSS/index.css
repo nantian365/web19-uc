@@ -1,0 +1,296 @@
+.sprite{
+	background:url(../images/bgbg.png) no-repeat;
+}
+
+/*顶部*/
+.topbar{
+	padding-top:15px;
+}
+.topbar>div a{
+	display: inline-block;
+	width: 130px;
+	height: 63px;
+	line-height: 63px;
+	text-align: center;
+}
+.topbar>div a span{
+	font-size:24px; 
+	padding-bottom: 12px;
+}
+.topbar>div .topChecked span{
+	border-bottom: 3px solid #ff6600;
+}
+
+/*广告图*/
+.banner img{
+	width: 1920px;
+	height: 400px;
+}
+.banner a{
+	display: none;
+}
+
+/*下载链接*/
+.downloadBox{
+	border-bottom: 1px solid #ededed;
+}
+.downloadBox ul a{
+	display: inline-block;
+	width: 136px;
+	height: 126px;
+	padding-top:48px;
+	text-align: center;
+	position: relative;
+}
+.downloadBox ul a i{
+	display: inline-block;
+	width: 23px;
+	height: 9px;
+	position: absolute;
+	top: 45px;
+	right: 31px;
+	background-position: -57px -183px;
+}
+.downloadBox ul a div{
+	height: 61px;
+	line-height: 61px;
+}
+
+.downloadBox ul a p{
+	margin-top: 10px;
+}
+.downloadBox .erweimaBox{
+	position: absolute;
+	top: -20px;
+	right: 0;
+	
+}
+.downloadBox .erweimaBox p{
+	margin-top: 5px;
+}
+/*列表分区*/
+.areaList{
+	margin-top: 60px;
+	padding-bottom: 30px;
+}
+.areaList .area{
+	width: 290px;
+}
+.areaList .area h4{
+	font-size: 24px;
+}
+.areaList .area h4 a{
+	font-size: 16px;
+}
+.areaList .area .picBox{
+	margin-top: 20px;
+	height: 120px;
+}
+.areaList .area .picBox img{
+
+}
+.areaList .area  p{
+	/*position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255,255,255,.8);*/
+	text-align: center;
+	background-color: #f2f2f2;
+	font-size: 12px;
+	height: 36px;
+	line-height: 36px;
+	color: #7b7b7b;
+}
+
+.areaList ul li{
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+}
+.areaList ul li a{
+	display: inline-block;
+	width: 100%;
+	height:30px;
+	color: #7b7b7b;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.areaList ul li a:hover{
+	color: #ff6600;
+}
+.areaList .centerarea{
+	margin-left:65px;
+}
+/*底部*/
+footer{
+	background-color: #333;
+	padding-bottom: 30px;
+}
+footer .otherList{
+	padding: 30px 0;
+	border-bottom: 1px dotted #565656;
+}
+footer .otherList>ul{
+	width: 160px;
+	float: left;
+	line-height: 24px;
+}
+footer .otherList>ul h4{
+	color: #aaaaaa;
+	font-size: 14px;
+	font-weight: bold;
+}
+footer .otherList>ul li a{
+	display: inline-block;
+	color: #aaaaaa;
+	font-size: 14px;
+	width: 100%;
+}
+footer .otherList .others .select{
+	
+	cursor:pointer;
+	position: relative;
+} 
+footer .otherList .others .select>div{
+	border:1px solid #434343;
+}
+footer .otherList .others .select i{
+	display: inline-block;
+	width: 28px; 
+	height: 22px;
+}
+footer .otherList .others .select .ico1{
+	background-position: 6px 4px;
+	margin:0 5px;
+}
+footer .otherList .others .select .ico2{
+	background-position: 9px -210px;
+}
+footer .otherList .others .select span{
+	display: inline-block;
+	width: 70px;
+	height: 22px;
+	line-height: 22px;
+ 	float: left;
+ 	color: #aaaaaa;
+}
+footer .otherList .others .select ul{
+	width: 100%;
+	color: #aaaaaa;
+	padding:5px 0;
+	background-color: #434343;
+	position: absolute;
+	top:24px;
+	left:0;
+	display: none;
+}
+footer .otherList .others .select ul li{
+	width: 98px;
+	height: 22px;
+	padding-left: 38px;
+}
+footer .otherList .others .select ul li:hover{
+	background-color: #aaaaaa;
+	color: #434343;
+}
+footer .otherList .others ul li a{
+	display: inline-block;
+	width: 100%;
+	height: 22px;
+	line-height: 22px;
+	color: #aaaaaa;
+}
+footer .otherList .others ul li i{
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	vertical-align: top;
+}
+footer .otherList .others ul li .ico1{
+	background-position: -33px -18px;
+}
+footer .otherList .others ul li .ico2{
+	background-position: 7px -40px;
+}
+footer .otherList .others ul li .ico3{
+	background-position: -45px -58px;
+}
+footer .otherList .others ul li .ico4{
+	background-position: 7px -77px;
+}
+footer .otherList .others ul li .ico5{
+	background-position: -46px -141px;
+}
+footer .otherList .others ul li .ico6{
+	background-position: -43px -98px;
+}
+footer .otherList .others ul li:hover a{
+	color: #ff6600;
+}
+
+/*购物网站*/
+footer .pubOpen{
+	
+	border-bottom: 1px dotted #565656;
+}
+footer .youshang ul{
+	width: 940px;
+}
+footer .pubOpen ul li{
+	height: 37px;
+	/*line-height: 37px;*/
+}
+footer .pubOpen ul a{
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	margin-top: 10px;
+	color: #aaaaaa;
+	font-size: 12px;
+	padding:0 5px;
+	border-right: 1px solid #565656;
+	/*float: left;*/
+}
+
+
+footer .pubOpen  a:hover{
+	color: #ff6600;
+}
+footer .pubOpen .sprite{
+	width: 37px;
+	height: 37px;
+	background-position: -143px -182px;
+	cursor:pointer;
+}
+footer .pubOpen .listOpen{
+	background-position: -143px -130px;
+}
+footer .pubOpen .hideLi{
+	display: none;
+}
+
+footer .friendLink h4{
+	color: #666666;
+	font-size: 12px;
+	height: 37px;
+	line-height: 37px;
+}
+footer .friendLink ul{
+	width: 880px;
+}
+
+/*工商信息*/
+footer .imform{
+	/*height: 60px;*/
+}
+footer .imform p{
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #666;
+}
+footer .imform img{
+	margin: 15px 15px 0 0;
+}

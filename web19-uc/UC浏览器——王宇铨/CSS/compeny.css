@@ -1,0 +1,232 @@
+.sprite{
+	background:url(../images/bgbg.png) no-repeat;
+}
+
+/*topBar*/
+.topBarBG {
+	border-bottom: 1px solid #c4c4c4;
+	padding:40px 0 25px;
+}
+.topBar img{
+	box-shadow: 0 0 3px #c7c7c7;
+}
+.topBar>ul{
+	list-style-type: square;
+	color: #ff6600;
+	/*vertical-align: bottom;*/
+	margin: 10px 20px 0;
+	border-right: 2px solid #888;
+	/*padding-right:15px;*/
+}
+.topBar>ul li{
+	float: left;
+	text-indent: 1em;
+	/*color: #888888;*/
+	margin-left: 15px;
+	/*width: 70px;*/
+	padding-right: 15px;
+	cursor:pointer;
+}
+.topBar>ul li span{
+	color: #888888;
+}
+.topBar>ul .langChecked span{
+	font-weight: bold;
+}
+.topBar>ul li:hover span{
+	color: #ff6600;
+}
+.topBar section{
+	height: 24px;
+	/*line-height: 34px;*/
+	padding-top:10px;
+}
+.topBar section a{
+	color: #888;
+	font-weight: bold;
+	/*margin-top: 10px;*/
+}
+.topBar section a i{
+	display: inline-block;
+	height: 20px;
+	width: 30px;
+	vertical-align: middle;
+}
+.topBar section a .ico1{
+	background-position: -94px -1px;
+}
+.topBar section a .ico2{
+	background-position: -132px -2px;
+}
+
+/*导航*/
+nav:nth-of-type(1){
+	border-bottom:2px solid #f86720;
+	box-shadow:0 2px 5px #e9e9e9;
+
+}
+nav:nth-of-type(1) article{
+	padding-top: 20px;
+}
+nav:nth-of-type(1) article>a{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #656565;
+	padding:0 25px;
+	position: relative;
+}
+nav:nth-of-type(1) article>a:hover{
+	color: #f86720;
+}
+nav:nth-of-type(1) article .navChecked{
+	color: #f86720;
+}
+nav:nth-of-type(1) article .navChecked:before{
+	content: " ";
+	border-bottom:4px solid #f84720;
+	border-left:4px solid transparent;
+	border-right:4px solid transparent;
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+}
+nav:nth-of-type(1) article section{
+	margin-top: 15px;
+}
+nav:nth-of-type(1) article section .iconfont{
+	display: inline-block;
+	width: 22px;
+	background-color: #cbcbcb;
+	color: #8a8a8a;
+	border-radius: 5px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	margin:0 4px;
+}
+nav:nth-of-type(1) article section .iconfont:hover{
+	color: #ff6600;
+	background-color: #fff;
+}
+nav:nth-of-type(1) article section .icon-twitter{
+	color: #fff;
+}
+
+/*nav article section .ico1{
+	background-position: -101px -39px;
+}
+nav article section .ico2{
+	background-position: -101px -69px;
+}
+nav article section .ico3{
+	background-position: -101px -98px;
+}
+nav article section .ico4{
+	background-position: -101px -127px;
+}
+nav article section .ico5{
+	background-position: -101px -157px;
+}*/
+
+/*公司页导航*/
+nav:nth-of-type(2){
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+}
+nav:nth-of-type(2) a{
+	padding:10px 5px;
+	color: #656565;
+	font-size: 14px;
+}
+nav:nth-of-type(2) a:hover{
+	color: #ff6600;
+}
+/*广告图*/
+.banner{
+	margin-top: 10px;
+}
+.banner img{
+	width: 1000px;
+}
+
+/*分区广告*/
+.navBanner{
+	border-left:1px solid #c3c3c3;
+	border-bottom:1px solid #c3c3c3;
+}
+.navBanner a{
+	display: inline-block;
+	width: 249px;
+	height: 210px;
+	float: left;
+	border-top: 1px solid #c3c3c3;
+	border-right: 1px solid #c3c3c3;
+	transition: transform 1s;
+}
+.navBanner :first-child a:nth-of-type(1){
+	background:url(../images/UC公司介绍_05.png);
+}
+.navBanner :first-child a:nth-of-type(2){
+	background:url(../images/UC公司介绍_07.png);
+}
+.navBanner :first-child a:nth-of-type(3){
+	background:url(../images/UC公司介绍_09.png);
+}
+.navBanner :first-child a:nth-of-type(4){
+	background:url(../images/UC公司介绍_11.png);
+}
+.navBanner :last-child a:nth-of-type(1){
+	background:url(../images/UC公司介绍_17.png);
+}
+.navBanner :last-child a:nth-of-type(2){
+	background:url(../images/UC公司介绍_19.png);
+}
+.navBanner :last-child a:nth-of-type(3){
+	background:url(../images/UC公司介绍_21.png);
+}
+.navBanner :last-child a:nth-of-type(4){
+	background:url(../images/UC公司介绍_23.png);
+}
+
+.navBanner a:hover{
+	transform:scale(1.2);
+	border:none;
+	border-radius: 20px;
+}
+
+.navBanner a p{
+	text-align: center;
+	font-size: 18px;
+	color: #656565;
+	height: 60px;
+	line-height: 60px;
+	transition: all 1s;
+}
+/*.navBanner a:hover{
+	background-size: 120%;
+
+}*/
+/*.navBanner a:hover p{
+	transform:scale(1.2);
+}
+*/
+
+/*底部*/
+footer{
+	background-color: #d6d6d6;
+	margin-top: 35px;
+}
+footer article{
+	padding:20px 0;
+}
+footer article p{
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #656565;
+	text-align: center;
+}
