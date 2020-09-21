@@ -20,5 +20,18 @@ window.onload=function() {
 		}
 	}
 	
-
+	// var oul=document.getElementsByClassName('.oul')[0];
+	// var li=document.children;
+	// for (var i = 0; i <li.length; i++) {
+	// 	li[i].onclick=function() {
+	// 		if (flage) {
+	// 			this.children.style.borderColor="orange";
+	// 			flage=false;
+	// 		}else{
+	// 			this.children.style.borderColor="";
+	// 			flage=true;
+	// 		}
+	// 	}
+		
+	// }
 }
