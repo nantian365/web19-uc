@@ -1,0 +1,205 @@
+.xz {
+	width: 100%;
+	background: #F2F2F2;
+}
+
+.xia {
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.cs {
+	display: inline-block;
+	padding: 10px 0;
+}
+
+.re {
+	width: 960px;
+	background: white;
+	padding: 20px;
+}
+
+.head1 {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.bor {
+	border-bottom: 1px solid lightgrey;
+}
+
+.ja {
+	line-height: 60px;
+}
+
+.ja span {
+	display: inline-block;
+	padding: 0 25px;
+	font-weight: bold;
+}
+
+.an {
+	display: flex;
+	width: 960px;
+	position: relative;
+}
+
+.an span {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.an div {
+	position: absolute;
+	right: 0;
+}
+
+.an div input {
+	height: 25px;
+	width: 200px;
+}
+
+.an div button {
+	height: 25px;
+	width: 25px;
+	background: orange;
+	border-color: orange;
+	color: white;
+	margin-left: -5px;
+}
+
+.max {
+	margin: 20px 0;
+}
+
+.max ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.max ul li {
+	width: 150px;
+	line-height: 30px;
+}
+
+.gen {
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	line-height: 50px;
+	background: orange;
+	border: none;
+	color: white;
+	margin-left: -5px;
+}
+
+.min {
+	margin: 0 auto;
+	width: 200px;
+}
+.res {
+	width: 1000px;
+	background: white;
+}
+.qt {
+	display: flex;
+	width: 1000px;
+	position: relative;
+	border-bottom: 1px solid slategrey;
+}
+.qt span:first-child{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.qt span:last-child{
+	position: absolute;
+	right: 0;
+	padding: 20px;
+}
+.qt span:last-child a{
+	color: blue;
+	padding: 0 2px;
+}
+.yi{
+	display: flex;
+}
+.yi-1{
+	width: 302px;
+	padding: 15px;
+}
+.yi-2{
+	margin-bottom: 15px;
+}
+.pp{
+	background: #6AA7DF;
+}
+.wan{
+	background: #81B846;
+}
+.yi-3{
+	padding: 5px 20px;
+	width: 200px;
+	border: none;
+	color: white;
+	position: relative;
+	margin-left: 40px;
+}
+.yi-3 img{
+	position: absolute;
+	left: 20px;
+	top: 5px;
+}
+.yi-3 span{
+	line-height: 33px;
+}
+.yi-4{
+	width: 289px;
+	text-align: center;
+	line-height: 30px;
+}
+.int{
+	width: 270px;
+	padding: 7px;
+	color: slategrey;
+}
+.ins{
+	margin: 10px 0;
+}
+.ins input{
+	width: 180px;
+	padding: 7px;
+	color: slategrey;
+}
+.kan{
+	width: 289px;
+	text-align: right;
+	justify-content: flex-start;
+}
+.bt{
+	width: 70px;
+	margin: 0 auto;
+}
+.bt button{
+	width: 70px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	background: orangered;
+	border: none;
+}
+.fonts{
+	font-size: 12px;
+}
+.mying{
+	width: 128px;
+	margin: 0 auto;
+}
+.shou{
+	width: 300px;
+	text-align: center;
+}
