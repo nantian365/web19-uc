@@ -1,0 +1,44 @@
+{
+  "id": "2068752",
+  "name": "Uc浏览器",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12911875",
+      "name": "下 拉",
+      "font_class": "xiala",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "14456895",
+      "name": "下 拉",
+      "font_class": "shang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6366912",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "6756291",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "11096636",
+      "name": "百度贴吧-01",
+      "font_class": "baidutieba-",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    }
+  ]
+}

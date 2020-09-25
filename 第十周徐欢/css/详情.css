@@ -1,0 +1,191 @@
+.header {
+    width: 100%;
+}
+
+
+/* 头部 */
+
+.header-2 {
+    width: 960px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.header-2 p {
+    margin-top: 30px;
+}
+
+.tou li:nth-child(1) {
+    margin-left: 45px;
+}
+
+.tou li a {
+    display: block;
+    color: #ACB6BD;
+    margin-top: 35px;
+    font-size: 11px;
+    font-family: "黑体";
+}
+
+.tou li {
+    list-style: square;
+    color: orangered;
+    margin-left: 40px;
+}
+
+.shu {
+    margin-top: 35px;
+    display: block;
+    margin-left: 10px;
+    color: #ACB6BD;
+}
+
+.shu-2 {
+    margin-top: 35px;
+}
+
+.shu-2 img {
+    width: 15px;
+    display: block;
+    margin-left: 15px;
+}
+
+.shu-2 a {
+    display: block;
+    margin-left: 5px;
+    font-size: 11px;
+    font-family: "黑体";
+    color: #ACB6BD;
+}
+
+.xian {
+    border-bottom: 1px solid #ACB6BD;
+}
+
+
+/* 导航 */
+
+.navList {
+    width: 100%;
+}
+
+.nav-2 {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.nav-2 ul li a {
+    font-size: 18px;
+    line-height: 100px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.nav-2 ul li a:hover {
+    color: orangered;
+}
+
+.nav-3 {
+    line-height: 100px;
+}
+
+.nav-3 img {
+    margin-left: 5px;
+}
+
+.xian-2 {
+    border-bottom: 3px solid #F86720;
+}
+
+
+/* 内容 */
+
+.content {
+    height: 900px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.content-2 {
+    width: 960px;
+    height: 75px;
+}
+
+.content-3 {
+    line-height: 75px;
+}
+
+.content-3 li a {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.content-3 li a:hover {
+    color: #F86720;
+}
+
+.tupian {
+    width: 936px;
+    height: 345px;
+}
+
+.tu {
+    width: 935px;
+    height: 412px;
+    border: 1px solid #ACB6BD;
+    margin-top: 30px;
+    background-color: #F3F3F3;
+}
+
+.tu-2 {
+    height: 205px;
+    border-bottom: 1px solid #ACB6BD;
+}
+
+.tu-2 li:nth-child(1),
+.tu-2 li:nth-child(2),
+.tu-2 li:nth-child(3) {
+    width: 230px;
+    height: 205px;
+    border-right: 1px solid #ACB6BD;
+}
+
+.tu-2 li a {
+    display: block;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.tu-2 li img {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+/* 尾部 */
+
+.footer {
+    width: 100%;
+    height: 78px;
+    background-color: #D6D6D6;
+    margin: 0 auto;
+}
+
+.footer-2 {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.footer-2 p {
+    font-size: 14px;
+    color: #656565;
+    text-align: center;
+}
+
+.ww {
+    display: block;
+    margin-top: 10px;
+    padding-top: 20px;
+}
