@@ -1,0 +1,270 @@
+/* 顶部 */
+.header{
+    height: 70px;
+    background:white;
+}
+.header1{
+    width: 980px;
+    height: 70px;
+    margin: 0 auto;
+}
+.logo{
+    margin-top:12px;
+    float: left;
+}
+.right a{
+    font-size: 18px;
+    line-height: 78px;
+    margin-left: 50px;
+}
+/* 首页、产品选择 */
+.fabric {
+	width: 100%;
+	background: #F2F2F2;
+}
+.first {
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.choose{
+	display: inline-block;
+	padding: 10px 0;
+}
+/* 热门下载 */
+.great{
+	width: 980px;
+	background: white;
+	padding: 20px;
+}
+.great-1{
+	width: 980px;
+	margin: 0 auto;
+	display: flex;
+}
+.bor {
+	border-bottom: 1px solid lightgrey;
+}
+.one{
+	width: 100px;
+	margin: 20px;
+}
+.two{
+	text-align: center;
+	height: 68px;
+}
+.three{
+	padding: 5px 0;
+	text-align: center;
+}
+.six {
+	line-height: 60px;
+}
+.six span {
+	display: inline-block;
+	padding: 0 25px;
+	font-weight: bold;
+}
+/* 按机型下载 */
+.markets{
+	display: flex;
+	width: 980px;
+	position: relative;
+}
+.markets span {
+	font-weight: bold;
+	font-size: 18px;
+}
+.markets div {
+	position: absolute;
+	right: 0;
+}
+.markets div input {
+	height: 25px;
+	width: 200px;
+}
+.markets  div button {
+	height: 30px;
+	width: 30px;
+	background:#FF6600;
+	border-color: #FF6600;
+    color: white;
+    vertical-align: middle;
+	margin-left: -5px;
+}
+.model{
+	margin: 20px 0;
+}
+.model ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.model ul li {
+	width: 150px;
+	line-height: 30px;
+}
+.more{
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	line-height: 50px;
+	background: orange;
+	border: none;
+	color: white;
+	margin-left: -5px;
+}
+.models{
+	margin: 0 auto;
+	width: 200px;
+}
+/* 其他方式下载 */
+.other{
+	padding: 20px;
+	width: 980px;
+	background: white;
+}
+.else {
+	display: flex;
+	width: 980px;
+	position: relative;
+	border-bottom: 1px solid slategrey;
+} 
+.else span:first-child{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.else span:last-child{
+	position: absolute;
+	right: 0;
+	padding: 20px;
+}
+.else span:last-child a{
+	color: blue;
+	padding: 0 2px;
+}
+.bond{
+	display: flex;
+}
+.bolt{
+	width: 302px;
+    padding: 15px;
+}
+.min-2{
+	margin-bottom: 15px;
+}
+.pp{
+	background: #6AA7DF;
+}
+.wan{
+	background: #81B846;
+}
+.ice{
+	vertical-align: middle;
+}
+.min-3{
+	padding: 5px 20px;
+	width: 200px;
+	border: none;
+	color: white;
+	position: relative;
+	margin-left: 40px;
+}
+.min-3 img{
+	position: absolute;
+	left: 20px;
+	top: 5px;
+}
+.min-3 span{
+	line-height: 33px;
+}
+.min-4{
+	width: 289px;
+	text-align: center;
+	line-height: 30px;
+}
+.int{
+	width: 270px;
+	padding: 7px;
+	color: slategrey;
+}
+.ins{
+	margin: 10px 0;
+}
+.ins input{
+	width: 180px;
+	padding: 7px;
+	color: slategrey;
+}
+.look{
+	width: 289px;
+    text-align: right;
+    color:blue;
+	justify-content: flex-start;
+}
+.send{
+	width: 70px;
+	margin: 0 auto;
+}
+.send button{
+	width: 70px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	background: orangered;
+	border: none;
+}
+.photos{
+    text-align: center;
+}
+.visit{
+    text-align: center;
+}
+/* 底部 */
+.bottoms{
+    background:#333333;
+ }
+ .unders{
+     width: 980px;
+     margin: 0 auto;
+ }
+ .unders-1{
+     display: flex;
+     padding: 20px 0;
+ }
+ .unders-1 ul{
+     margin: 0 auto;
+ }
+ .unders-1 ul li a{
+     color: #FFFFFF;
+ }
+ .english{
+     background: #333333;
+     color: #AAAAAA;
+ }
+ #china li a{
+     color: #AAAAAA;
+ }
+ .below{
+     border-top: 1px dashed white;
+     border-bottom: 1px dashed white;
+     color: white;
+     padding: 10px 0;
+ }
+ .below a{
+     color: white;
+     padding: 0 5px;
+     font-size: 12px;
+ }
+ .heap{
+     display: flex;
+     color: #666666;
+     font-size: 12px;
+     padding: 20px 0;
+ }
+ .heaps{
+     margin-top:10px;
+     margin-left: 50px;
+ }

@@ -1,0 +1,104 @@
+/* 顶部 */
+.batten{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+}
+.batten img{
+	margin: 20px 0;
+}
+.batten ul{
+	display: flex;
+	margin-top: 30px;
+}
+.batten ul li a{
+	font-size: 12px;
+	padding: 0 25px;
+}
+.batten .written {
+	margin: 30px 0 0 10px;
+}
+/* 第二行：首页、产品、公司 */
+.page{
+	width: 100%;
+	border-top: 1px solid #C4C4C4 ;
+	border-bottom: 2px solid #F86720 ;
+}
+.among{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.among ul{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.among ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 25px;
+}
+.calligraphy{
+	margin-top: 25px;
+}
+.calligraphy .iconfont{
+	font-size: 26px;
+	color: gray;
+	cursor: pointer;
+}
+/* 第三行：公司首页、公司概况 */
+.company{
+	width: 1000px;
+	text-align: right;
+	margin: 0 auto;
+}
+.company a{
+	display: inline-block;
+	line-height: 50px;
+	padding: 5px;
+}
+.photo{
+	width: 1000px;
+	margin: 0 auto;
+}
+/* 第四行：公司概况文字及图片 */
+.four{
+	width: 1000px;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.note{
+	width: 248px;
+	border: 1px solid #E3E3E3;
+	background: #F2F2F2;
+}
+.four div{
+	width: 248px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	color: #909090;
+    font-weight: 400;
+    cursor:pointer;
+}
+.four .note:nth-child(2){
+    width: 248px;
+}
+/* 底部 */
+#bottoms{
+	width: 100%;
+	background: #D6D6D6;
+}
+.belw{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.bottoms-1{
+	width: 1000px;
+    text-align: center;
+    color:#656565;
+}
