@@ -1,0 +1,199 @@
+footer{
+    padding-top: 30px;
+    height: 500px;
+    background: #333333;
+    margin-top: 38px;
+}
+.box ul li{
+    line-height: 22px;
+}
+.box-ul{
+    width: 155px;
+    float: left;
+}
+.box-ul li a{
+    color: #f6f6f6;
+    font-size: 12px;
+}
+.box2 .select{
+    position: relative;
+    width: 106px;
+    height: 22px;
+    border: 2px solid #434343;
+    border-top: 0;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.select .icon-down{
+    position: absolute;
+    background: url(../../images/bgbg.png) no-repeat;
+    display: block;
+    width: 9px;
+    height: 6px;
+    background-position: 0 -218px;
+    right: 8px;
+    top: 6px;
+    cursor: pointer;
+}
+.select .icon-up{
+    position: absolute;
+    background: url(../../images/bgbg.png) no-repeat;
+    display: block;
+    width: 6px;
+    height: 9px;
+    background-position: 0 -226px;
+    cursor: pointer;
+}
+.select .icon-qiu{
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../../images/bgbg.png) no-repeat;
+    left: 10px;
+    top: 2px;
+    background-position: 0 0;
+}
+.select>span{
+    color: #aaaaaa;
+}
+.select .box-show{
+    position: absolute;
+    left: -1px;
+    top: 23px;
+    width: 105px;
+    border: 1px solid  #ccc;
+    padding-left: 32px;
+    display: none;
+    background: #333333;
+
+}
+.select .box-show a{
+    color: #aaaaaa;
+}
+.select:hover .box-show{
+    display: block;
+}
+.box-show ul li a:hover{
+    color: #fff;
+}
+.box2 .list-type{
+    margin-top: 16px;
+}
+.box2 .list-type a{
+    color: #aaaaaa;
+}
+.box2 .list-type .icon{
+    display: inline-block;
+    width: 23px;
+    height: 18px;
+    vertical-align: middle;
+}
+.box2 .list-type .icon.icon-phoe{
+    background: url(../../images/bgbg.png) no-repeat; 
+    background-position: -43px -22px;
+}
+.box2 .list-type .icon.icon-Pad{
+    background: url(../../images/bgbg.png) no-repeat; 
+    background-position: 0 -45px;
+}
+.box2 .list-type .icon.icon-tv{
+    background: url(../../images/bgbg.png) no-repeat; 
+    background-position: -52px -61px;
+}
+.box2 .list-type .icon.icon-weibo{
+    background: url(../../images/bgbg.png) no-repeat; 
+    background-position: 0 -79px;
+}
+.box2 .list-type .icon.icon-baidu{
+    background: url(../../images/bgbg.png) no-repeat; 
+    background-position: -52px -143px;
+}
+.box2 .list-type .icon.icon-weixin{
+    background: url(../../images/bgbg.png) no-repeat; 
+    background-position: -48px -100px;
+}
+.box2 .list-type li{
+    margin-bottom: 5px;
+}
+footer .box{
+    padding-bottom: 20px;
+}
+.yourBox1{
+   
+    line-height: 37px;
+    font-size: 12px;
+}
+.yourYang a{
+    color: #aaaaaa;
+}
+.yourBox1 .u1{
+    height: 37px;
+    border: 1px dotted #ccc;
+    border-right: 0;
+    border-left: 0;
+}
+.yourBox1 .u1>li{
+    float: left;
+}
+.yourBox1 ul{
+    padding-left: 8px;
+}
+.yourBox1 ul>.spacer{
+    margin: 0 8px;
+    color: #666666;
+}
+.yourBox1 .gaode{
+    position: relative;
+}
+
+.gaode .cion{
+    position: absolute;
+    display: block;
+    background: url(../../images/bgbg.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    background-position: 0 -192px;
+    top: 11px;
+    left: 38px;
+  
+}
+.gaode .gao-hd{
+    position: absolute;
+    left: 0;
+    top: 27px;
+    width: 60px;
+    display: none;
+    background: #333333;
+    line-height: 24px;
+    text-align: center;
+    z-index: 10000;
+}
+.gaode:hover .gao-hd{
+    display: block;
+}
+.gaode:hover .cion{
+    width: 16px;
+    height: 16px;
+    background-position: 0 -168px;
+    
+}
+.gao-hd li a:hover{
+    color: #fff;
+}
+.yourBox1 .u2{
+    border-top: 0;
+}
+.img-logo{
+    margin-top: 34px;
+}
+.foot-mes .xingxi{
+    margin-top: 25px;
+    color: #666666;
+    margin-left: 15px;
+    line-height: 18px;
+    font-size: 14px;
+}
+.biaozhi{
+    margin-top: 25px;
+}
