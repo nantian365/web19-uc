@@ -1,0 +1,135 @@
+/* 版心 */
+
+.w {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+/* 头部 */
+
+header {
+    height: 76px;
+    line-height: 76px;
+}
+
+.logo {
+    width: 200px;
+    height: 43px;
+    margin-top: 10px;
+}
+
+header>ul>li {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 46px 0 0;
+    height: 72px;
+}
+
+header>ul>li:hover {
+    border-bottom: 4px solid #ff6600;
+}
+
+header>ul>li>a {
+    color: #000;
+    font-size: 24px;
+}
+
+
+/* banner部分 */
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background: url(../images/UC_06.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner>.w {
+    position: relative;
+}
+
+.download_code {
+    width: 128px;
+    height: 128px;
+    background: url(../images/UC_08.jpg) no-repeat;
+    position: absolute;
+    top: 376px;
+    right: 0;
+}
+
+.banner>.w>p {
+    position: absolute;
+    top: 484px;
+    right: -4px;
+}
+
+
+/* 下载 */
+
+.downloads {
+    width: 100%;
+    height: 174px;
+    border-bottom: 1px solid #ededed;
+}
+
+.downloads_ul {
+    height: 174px;
+}
+
+.downloads_ul>li {
+    height: 174px;
+    width: 140px;
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.downloads_ul>li:nth-child(4) img {
+    margin-top: 50px;
+}
+
+.downloads_ul>li:nth-child(5) img {
+    margin-top: 50px;
+}
+
+.downloads_ul>li:nth-child(6) img {
+    margin-top: 50px;
+}
+
+.downloads_ul>li>img {
+    margin: 40px 10px 0;
+}
+
+.downloads_ul>li>p {
+    margin: 10px auto;
+}
+
+
+/* 活动专区 */
+
+.content {
+    height: 454px;
+    padding-top: 62px;
+    padding-bottom: 36px;
+    box-sizing: border-box;
+}
+
+.contt1 {
+    width: 292px;
+    height: 355px;
+    margin-right: 70px;
+}
+
+.content div:nth-child(3) {
+    margin-right: 0;
+}
+
+
+/* 底部 */
+
+footer {
+    width: 100%;
+    height: 532px;
+    background-color: #333333;
+}
