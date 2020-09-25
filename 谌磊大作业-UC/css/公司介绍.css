@@ -1,0 +1,94 @@
+.head{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+}
+.head img{
+	margin: 20px 0;
+}
+.head ul{
+	display: flex;
+	margin-top: 30px;
+}
+.head ul li a{
+	font-size: 12px;
+	padding: 0 25px;
+}
+.head .sj{
+	margin: 30px 0 0 10px;
+}
+.sec{
+	width: 100%;
+	border-top: #C4C4C4 1px solid;
+	border-bottom: #F86720 2px solid;
+}
+.sec-1{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.sec-1 ul{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.sec-1 ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 25px;
+}
+.tu{
+	margin-top: 25px;
+}
+.tu .iconfont{
+	font-size: 26px;
+	color: gray;
+	cursor: pointer;
+}
+.gong{
+	width: 1000px;
+	text-align: right;
+	margin: 0 auto;
+}
+.gong a{
+	display: inline-block;
+	line-height: 50px;
+	padding: 5px;
+}
+.myimg{
+	width: 1000px;
+	margin: 0 auto;
+}
+.si{
+	width: 1000px;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.si-1{
+	width: 248px;
+	border: 1px solid #E3E3E3;
+	background: #F2F2F2;
+}
+.si-1 div{
+	width: 248px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	color: #909090;
+	font-weight: 400;
+}
+#foot{
+	width: 100%;
+	background: #D6D6D6;
+}
+.foote{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.text{
+	width: 1000px;
+	text-align: center;
+}
