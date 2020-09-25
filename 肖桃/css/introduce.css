@@ -1,0 +1,123 @@
+/* 设置顶部的导航 */
+.head-top{
+    height: 100px;
+    border-bottom: #c4c4c4 solid 1px;
+}
+.logo{
+    width: 116px;
+    height: 33px;
+    background: url(../images/UC_88.jpg) no-repeat 0 0;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px #c4c4c4;
+    margin-top: 38px;
+}
+.head-top-ul{
+    list-style: square;
+    list-style-position: inside;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.line,.change{
+    margin-top: 60px;
+}
+.head-top-ul li:not(:last-child){
+    width: 80px;
+}
+.icon{
+    width: 9px;
+    height: 16px;
+    background: url(../images/intro_03.png);
+}
+.icon1{
+    width: 13px;
+    height: 16px;
+    background: url(../images/intro_05.png);
+}
+/* 主菜单 */
+.head-nav{
+    padding-top: 28px;
+    height: 35px;
+    border-bottom: #f86720 2px solid;
+    box-shadow: 0 3px 3px #ccc;
+}
+.ri-ic{
+    width: 22px;
+    height: 22px;
+    background: url(../images/intro_10.png);
+}
+.ri-ic1{
+    background: url(../images/intro_12.png);
+}
+.ri-ic2{
+    background: url(../images/intro_14.png);
+}
+.ri-ic3{
+    background: url(../images/intro_16.png);
+}
+.ri-ic4{
+    background: url(../images/intro_18.png);
+}
+.head-nav .on{
+    color: #f86720;
+}
+.head-nav .on::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    border: #f86720 7px solid;
+    border-left:transparent 5px solid;
+    border-right:transparent 5px solid;
+    border-top:transparent 7px solid;
+    position: absolute;
+    bottom: -20px;
+    left: 45%;
+}
+/* 主菜单细节 */
+.details{
+    padding-top: 27px;
+    height: 55px;
+}
+.details ul li{
+    margin-left: 12px;
+}
+/* 大图 */
+.bg{
+    background: url(../images/bg.png) no-repeat 0 0;
+    height: 345px;
+}
+/* 列表图 */
+.bgul{
+    border-top: 1px solid #c3c3c3;
+    border-left: 1px solid #c3c3c3;
+    width: 935px;
+}
+.bgul li{
+    border-bottom: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    height: 206px;
+    overflow: hidden;
+}
+/* 底部 */
+.footer{
+    height: 87px;
+}
+/* 动画 */
+.bgul li a img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+.ri-ic:hover{
+    transition: all 1s;
+    transform: rotate(360deg);
+}
+.logo:hover{
+    transition: all 1s;
+    transform: scale(2);
+}
+#icons a div{
+    float: left;
+}
+.head-nav div .icons{
+    float: right;
+}

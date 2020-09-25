@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户下载</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 引入首页的样式 -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 引入当页样式 -->
+    <link rel="stylesheet" href="css/download.css">
+    <!-- 引入网站图标 -->
+    <link rel="icon" href="images/UC_03.ico">
+    <!-- 引入jq库 -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- 引入首页的js代码 -->
+    <script src="js/index.js"></script>
+    <!-- 引入当页js代码 -->
+    <script src="js/download.js"></script>
+    <!-- 引入输入框代码 -->
+    <script src="js/search.js"></script>
+</head>
+
+<body class="bggray1">
+    <!-- 头部的容器 -->
+    <div class="header-wrapper bgwhite">
+        <div class="header wt1000 clearfix">
+            <a href="index.html">
+                <div class="logo fl mt15 ml15"></div>
+            </a>
+            <ul class="top-nav fl font24 clearfix">
+                <li class="fl tc"><a class="layout inline" href="index.html">首页</a></li>
+                <li class="fl tc on"><a class="layout inline" href="download.html">下载</a></li>
+                <li class="fl tc"><a class="layout inline" href="introduce.html">公司</a></li>
+                <li class="fl tc"><a class="layout inline" href="#">合作</a></li>
+                <li class="fl tc"><a class="layout inline" href="#">社区</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 主体容器 -->
+    <div class="main-wrapper wt1000">
+        <div class="main w990 ml20">
+            <div class="main-top font12">
+                <a class="ml5" href="index.html">首页</a>
+                <span>></span>
+                <a href="#">产品选择</a>
+            </div>
+            <!-- 热门下载 -->
+            <div class="hot-down bgwhite ml5">
+                <h2 class="ml25 fb pt20">热门下载</h2>
+                <!-- 下载的图标链接 -->
+                <div class="down-icon">
+                    <div class="wt1000 pore">
+                        <ul class="icon-ul clearfix ml25 pb30 font12">
+                            <li class="fl">
+                                <a class="inline layout pore mb5" href="#">
+                                    <div class="and pc"></div>
+                                </a>
+                                <a href="#">
+                                    <p class="tc">电脑版</p>
+                                </a>
+                            </li>
+                            <li class="fl">
+                                <a class="inline layout pore mb5" href="#">
+                                    <div class="and and1"></div>
+                                </a>
+                                <a href="#">
+                                    <p class="tc">Android</p>
+                                </a>
+                            </li>
+                            <li class="fl">
+                                <a class="inline layout pore mb5" href="#">
+                                    <div class="and apple"></div>
+                                </a>
+                                <a href="#">
+                                    <p class="tc">IOS(iPhone)</p>
+                                </a>
+                            </li>
+                            <li class="fl">
+                                <a class="inline layout pore mb5" href="#">
+                                    <div class="and pd"></div>
+                                </a>
+                                <a href="#">
+                                    <p class="tc">IOS(iPad)</p>
+                                </a>
+                            </li>
+                            <li class="fl">
+                                <a class="inline layout pore mb5" href="#">
+                                    <div class="and pd pd2"></div>
+                                </a>
+                                <a href="#">
+                                    <p class="tc">aPad</p>
+                                </a>
+                            </li>
+                            <li class="fl">
+                                <a class="inline layout pore mb5" href="#">
+                                    <div class="and tv"></div>
+                                </a>
+                                <a href="#">
+                                    <p class="tc">TV版</p>
+                                </a>
+                            </li>
+                            <li class="fl">
+                                <a class="inline layout pore mb5" href="#">
+                                    <div class="and wp"></div>
+                                </a>
+                                <a href="#">
+                                    <p class="tc">WP</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="icon-title ml35">
+                            <ul class="clearfix font12">
+                                <li class="fl">
+                                    <a class="inline ml20 mr20 fb gray3" href="#">Java</a>
+                                </li>
+                                <li class="fl gray4">|</li>
+                                <li class="fl">
+                                    <a class="inline ml20 mr20 fb gray3" href="#">Symbian</a>
+                                </li>
+                                <li class="fl gray4">|</li>
+                                <li class="fl">
+                                    <a class="inline ml20 mr20 fb gray3" href="#">WM(PPC/SP)</a>
+                                </li>
+                                <li class="fl gray4">|</li>
+                                <li class="fl">
+                                    <a class="inline ml20 mr20 fb gray3" href="#">Meego</a>
+                                </li>
+                                <li class="fl gray4">|</li>
+                                <li class="fl">
+                                    <a class="inline ml20 mr20 fb gray3" href="#">斯凯mrp</a>
+                                </li>
+                                <li class="fl gray4">|</li>
+                                <li class="fl">
+                                    <a class="inline ml20 mr20 fb gray3" href="#">Blackberry</a>
+                                </li>
+                                <li class="fl gray4">|</li>
+                                <li class="fl">
+                                    <a class="inline ml20 mr20 fb gray3" href="#">Ophone</a>
+                                </li>
+                                <li class="fl gray4">|</li>
+                                <li class="fl">
+                                    <a class="inline ml20 mr20 fb gray3" href="#">WinPad</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 按机型下载 -->
+            <div class="style bgwhite mt20">
+                <h2 class="ml25 fb pt20 clearfix">
+                    <span class="fl">按机型下载</span>
+                    <div class="fr search-bg">
+                        <input type="text">
+                        <button></button>
+                    </div>
+                </h2>
+                <ul class="clearfix style-ul ml25 lh30 mt30 font12">
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                    <li class="fl">
+                        <a class="gray5" href="#">SM-N9009</a>
+                    </li>
+                </ul>
+                <a href="#"><div class="more-style pb25"></div></a>
+            </div>
+            <!-- 其他下载 -->
+            <div class="other-down bgwhite mt20 gray6 mb20">
+                <h2 class="pl25 pt20 gray6 clearfix">
+                    <span class="fl fb">其他下载方式</span>
+                    <span class="fr mr15 font12">如无法下载或有其他建议请给我们 <a class="blue" href="#">反馈</a></span>
+                </h2>
+                <!-- 下载方式 -->
+                <div class="down-box clearfix font12">
+                    <!-- 一键下载 -->
+                    <div class="fast-down fl">
+                        <h3 class="ml20 font12 mb25 mt20">一键下载</h3>
+                        <p class="tc lh40">iPhone（仅支持越狱手机）</p>
+                        <a href="#"><div class="pp"></div></a>
+                        <p class="tc lh40">Android手机</p>
+                        <a href="#"><div class="dd mb40"></div></a>
+                    </div>
+                    <!-- 短信下载 -->
+                    <div class="message-down fl">
+                        <h3 class="ml20 font12 pt20 mb15">短信下载</h3>
+                        <p class="ml20 lh20">输入您的手机号,我们会发送一条短信到您的手机,点击短</p>
+                        <p class="ml20 lh20">信中的网址即可下载UC浏览器。</p>
+                        <p class="ml20 mt15"><input class="font12 pl10 gray" id="tel" type="text" name="" ></p>
+                        <p class="ml20 mt15 clearfix yzm-p">
+                            <input class="font12 pl10 gray y-input fl inline" id="yzm" class="" type="text" name="" >
+                            <div class="yzm fr inline"></div>
+                        </p>
+                        <p class="clearfix">
+                            <a class="fr blue lh24 mr20" href="#">看不清？换一张</a>
+                        </p>
+                        <p>
+                            <button class="white send bgorange tc">发送</button>
+                        </p>
+                    </div>
+                    <!-- 二维码下载 -->
+                    <div class="code-down fr">
+                        <h3 class="ml20 font12 pt20">二维码下载</h3>
+                        <p class="mb15 mt15 ml20">使用手机二维码软件扫描下图，即可下载UC浏览器。</p>
+                        <a href="#">
+                            <div class="code-icon mb10"></div>
+                        </a>
+                        <p class="tc">手机访问 wap.uc.cn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部容器 -->
+    <div class="footer-wrapper bggray2 pt25">
+        <div class="footer wt1000 font12">
+            <!-- 竖向列表区域 -->
+            <div class="top-uls clearfix ml20 pb25">
+                <ul class="fl">
+                    <li>
+                        <a class="white lh26" href="#">UC浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">产品动态</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">功能介绍</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">安卓浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">iPone浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">电脑浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">WP浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">iPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">aPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">TV浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">塞班浏览器</a>
+                    </li>
+                </ul>
+                <ul class="fl">
+                    <li>
+                        <a class="white lh26" href="#">UC浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">产品动态</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">功能介绍</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">安卓浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">iPone浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">电脑浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">WP浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">iPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">aPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">TV浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">塞班浏览器</a>
+                    </li>
+                </ul>
+                <ul class="fl">
+                    <li>
+                        <a class="white lh26" href="#">产品动态</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">功能介绍</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">安卓浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">iPone浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">电脑浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">WP浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">iPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">aPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">TV浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">塞班浏览器</a>
+                    </li>
+                </ul>
+                <ul class="fl">
+                    <li>
+                        <a class="white lh26" href="#">iPone浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">电脑浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">WP浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">iPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">aPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">TV浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">塞班浏览器</a>
+                    </li>
+                </ul>
+                <ul class="fl">
+                    <li>
+                        <a class="white lh26" href="#">iPone浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">电脑浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">WP浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">iPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">aPad浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">TV浏览器</a>
+                    </li>
+                    <li>
+                        <a class="white lh26" href="#">塞班浏览器</a>
+                    </li>
+                </ul>
+                <div class="change-box fr">
+                    <div class="change gray2 pore">
+                        <div class="lh22">
+                            <span class="change-icon inline lh22 vam ml10 mr5"></span>
+                            <span class="ch">中文版</span>
+                            <span class="select inline"></span>
+                        </div>
+                        <ul class="change-ul none">
+                            <li class="lh22 bggray2">
+                                <span class="ml35">韩文版</span>
+                            </li>
+                            <li class="lh22 bggray2">
+                                <span class="ml35">英文版</span>
+                            </li>
+                            <li class="lh22 bggray2">
+                                <span class="ml35">日文版</span>
+                            </li>
+                            <li class="lh22 bggray2">
+                                <span class="ml35">泰文版</span>
+                            </li>
+                            <li class="lh22 bggray2">
+                                <span class="ml35">拉文版</span>
+                            </li>
+                        </ul>
+                        <!-- 带图标的小破站 -->
+                        <ul class="last-ul mt20">
+                            <li>
+                                <a class="gray2" href="#">
+                                    <span class="icon inline vam mr5"></span>
+                                    <span>手机站</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="gray2" href="#">
+                                    <span class="icon inline vam mr5 icon1"></span>
+                                    <span>Pad站</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="gray2" href="#">
+                                    <span class="icon inline vam mr5 icon2"></span>
+                                    <span>TV站</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="gray2" href="#">
+                                    <span class="icon inline vam mr5 icon3"></span>
+                                    <span>UC浏览器微博</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="gray2" href="#">
+                                    <span class="icon inline vam mr5 icon4"></span>
+                                    <span>UC浏览器贴吧</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="gray2" href="#">
+                                    <span class="icon inline vam mr5 icon5"></span>
+                                    <span>UC浏览器微信</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 友情链接 -->
+            <ul class="clearfix gray2 link-top-ul font12 link-top">
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">阿里巴巴集团</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">淘宝网</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">天猫</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">聚划算</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">全球速卖通</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">阿里巴巴国际交易市场</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">1688</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">阿里妈妈</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">阿里旅行·去啊</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">阿里云计算</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">YunOS</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">阿里通信</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">万网</a>
+                </li>
+                <li class="fl">|</li>
+                <li class="fl">
+                    <a class="gray2 ml5 mr5" href="#">高德</a>
+                </li>
+                <li class="fr mr10 link-sec"></li>
+            </ul>
+            <!-- 最底下的图标 -->
+            <div class="footer-bottom clearfix">
+                <a href="#">
+                    <div class="big-pic fl mr15 mt30"></div>
+                </a>
+                <div class="bottom-text gray font12 pt20 fl">
+                    <p class="lh20">UC优视 2004-2014uc.cn &copy; 版权所有 增值电信业务经营许可证：粤B2-20070379 粤ICP备09210879号</p>
+                    <p class="lh20">中华人民共和国互联网药品信息服务资格证：（粤）-非经营性-2011-0120 网络文化经营许可证：文网文[2010]176号</p>
+                </div>
+                <div class="fr clearfix b-icons">
+                    <a href="#">
+                        <div class="fl bi4"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

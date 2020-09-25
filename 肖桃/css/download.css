@@ -1,0 +1,123 @@
+/* 底部样式调整 */
+.link-top{
+    border-bottom: #565656 dotted 1px;
+}
+/* 设置顶部的阴影 */
+.header-wrapper{
+    box-shadow: 0 5px 5px #d3d3d3;
+}
+/* 设置面包屑 */
+.main-top{
+    height: 52px;
+    line-height: 52px;
+}
+/* 下载的图标 */
+.and1{
+    background: url(../images/UC下载页_03.png);
+}
+.pd{
+    background: url(../images/UC下载页_06.png);
+}
+.pd2{
+    background: url(../images/UC下载页_08.png);
+}
+.icon-ul{
+    margin-bottom: 0;
+}
+.icon-title{
+    border-top: #e0e0e0 solid 1px;
+    width: 920px;
+    height: 80px;
+    line-height: 80px;
+}
+/* 按机型下载 */
+.style-ul li{
+   width: 160px;
+}
+.more-style{
+    width: 220px;
+    height: 50px;
+    background: url(../images/UC_down_03\ \(2\).png) no-repeat 0 0;
+    margin-top: 15px;
+    margin-left: 335px;
+}
+.search-bg{
+    width: 284px;
+    height: 30px;
+    background: url(../images/UC_down_03\ \(1\).png);
+    margin-right: 33px;
+}
+.search-bg input{
+    width: 246px;
+    height: 29px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top: -4px;
+    left: 2px;
+}
+.search-bg button{
+    width: 34px;
+    height: 29px;
+    position: relative;
+    margin: -4px;
+    top: 4px;
+    left: 2px;
+    background-color: transparent;
+    border: none;
+}
+/* 其他方式下载 */
+.other-down h2{
+    padding-bottom: 22px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.fast-down{
+    width: 318px;
+    border-right: 1px solid #d4d4d4;
+}
+.message-down{
+    width: 328px;
+    border-right: 1px solid #d4d4d4;
+}
+.pp,.dd{
+    width: 200px;
+    height: 48px;
+    background: url(../images/down_03.png);
+    margin-left: 62px;
+}
+.dd{
+    background: url(../images/down_10.png);
+}
+.yzm{
+    width: 62px;
+    height: 32px;
+    background: url(../images/down_07.png);
+    margin-top: -32px;
+    margin-right: 25px;
+}
+.message-down input{
+    width: 270px;
+    height: 30px;
+    line-height: 30px;
+    border: #cacaca solid 1px;
+}
+.message-down .y-input{
+    width: 203px;
+}
+.message-down .yzm-p{
+    width: 270px;
+}
+.send{
+    margin-left: 108px;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    margin-bottom: 38px;
+}
+.code-down{
+    width: 342px;
+}
+.code-icon{
+    margin-left: 108px;
+}

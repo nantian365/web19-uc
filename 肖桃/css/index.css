@@ -1,0 +1,235 @@
+.header-wrapper{
+    height: 74px;
+}
+/* 设置logo */
+.logo{
+    width: 200px;
+    height: 43px;
+    background: url(../images/UC_03.jpg) no-repeat 0 0;
+    /* background-size: 205px 45px; */
+    margin-right: 240px;
+}
+/* 设置导航 */
+.top-nav li{
+    width: 65px;
+    line-height: 73px;
+    height: 73px;
+}
+.top-nav .on{
+    border-bottom: #f60 3px solid;
+}
+.top-nav li:not(:last-child){
+    margin-right: 55px;
+}
+/*设置大图*/
+.slide{
+    height: 400px;
+    background: url(../images/UC_06.jpg) no-repeat center center;
+}
+/* 下载图标 */
+.down-icon{
+    border-bottom: 1px solid #ededed;
+    /* height: 174px; */
+}
+.and{
+    width: 39px;
+    height: 61px;
+    background: url(../images/UC_15.jpg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.icon-ul{
+    margin-top: 44px;
+    margin-bottom: 37px;
+}
+.icon-ul li{
+    width: 138px;
+    height: 100%;
+}
+.icon-ul li a{
+    height: 62px;
+}
+.apple{
+    width: 37px;
+    background: url(../images/UC_16.jpg);
+}
+.pc{
+    width: 72px;
+    height: 49px;
+    background: url(../images/UC_27.jpg);
+}
+.pd{
+    width: 66px;
+    height: 45px;
+    background: url(../images/UC_30.jpg);
+}
+.tv{
+    width: 68px;
+    height: 51px;
+    background: url(../images/UC_24.jpg);
+}
+.wp{
+    width:37px;
+    height: 60px;
+    background: url(../images/UC_19.jpg);
+}
+.new{
+    width: 23px;
+    height: 9px;
+    background: url(../images/bgbg.png) no-repeat -57px -183px;
+    position: absolute;
+    top: -5px;right: 32px;
+}
+/* 扫一扫下载 */
+.code-icon{
+    width: 128px;
+    height: 128px;
+    background: url(../images/UC_08.jpg);
+}
+.code p{
+    width: 128px;
+}
+.code{
+    position: absolute;
+    right: 0;
+    top:-65px;
+}
+/* 设置文章列表 */
+.article-box{
+    margin-top: 63px;
+}
+.article-box>div{
+    width: 290px;
+}
+.pic{
+    height: 120px;
+    background: url(../images/UC_40.jpg);
+}
+.pic2{
+    background: url(../images/UC_42.jpg);
+}
+.pic3{
+    background: url(../images/UC_44.jpg);
+}
+.pic-title{
+    height: 36px;
+}
+.art-left{
+    margin-right: 55px;
+}
+/* 设置底部的竖向列表 */
+.top-uls>ul{
+    width: 166px;
+}
+/* 中文切换 */
+.change,.change-ul li{
+    width: 136px;
+    height: 22px;
+    border: #434343 1px solid;
+    border-top: 0;
+}
+.change-icon{
+    width: 15px;
+    height: 15px;
+    background: url(../images/bgbg.png) no-repeat 0 0;
+}
+.select{
+    width: 9px;
+    height: 6px;
+    background: url(../images/bgbg.png) no-repeat 0 -218px;
+    margin-left: 40px;
+}
+.change-ul{
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+.change-ul li{
+    position: relative;
+    left: -1px;
+    top: 1px;
+}
+/* 有图标的站点 */
+.last-ul{
+    width: 136px;
+}
+.last-ul li{
+    height: 22px;
+}
+.icon{
+    width:20px;
+    height: 16px;
+    background: url(../images/bgbg.png) no-repeat -40px -22px;
+    margin-left: 12px;
+}
+.icon1{
+    height: 12px;
+    background: url(../images/bgbg.png) no-repeat 0px -45px;
+}
+.icon2{
+    height: 13px;
+    background: url(../images/bgbg.png) no-repeat -52px -62px;
+}
+.icon3{
+    height: 17px;
+    background: url(../images/bgbg.png) no-repeat 0px -79px;
+}
+.icon4{
+    height: 16px;
+    background: url(../images/bgbg.png) no-repeat -48px -101px;
+}
+.icon5{
+    height: 18px;
+    background: url(../images/bgbg.png) no-repeat -52px -143px;
+}
+/* 设置友情链接 */
+.link-top-ul,.link-ul{
+   height: 35px;
+   line-height: 35px;
+   border-top: 1px dotted #565656; 
+}
+.link-ul{
+    border-bottom: 1px dotted #565656;
+}
+.link-sec{
+    width: 16px;
+    height: 16px;
+    background: url(../images/bgbg.png) no-repeat 0 -168px;
+    margin-top: 10px;
+}
+/* 设置底部的图标 */
+.big-pic{
+    width: 116px;
+    height: 33px;
+    background: url(../images/UC_88.jpg);
+    border-right-color: 1px solid transparent;
+}
+.bottom-text{
+    margin-bottom: 50px;
+}
+.bi1{
+    width: 39px;
+    height: 39px;
+    background: url(../images/UC_78.jpg);
+}
+.bi2{
+    width: 37px;
+    height: 37px;
+    background: url(../images/UC_84.jpg);
+}
+.bi3{
+    width: 101px;
+    height: 37px;
+    background: url(../images/UC_86.jpg);
+}
+.bi4{
+    width: 135px;
+    height: 38px;
+    background: url(../images/UC_81.jpg);
+}
+.b-icons{
+    margin-left: 95px;
+    margin-top: 27px;
+}
